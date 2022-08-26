@@ -6,13 +6,10 @@ using System.Threading.Tasks;
 
 namespace console_app
 {
-    internal class entidad
+    internal class Nintendo : Consola
     {
-        public string Name { get; protected set; }
-
-        protected entidad(string Name)
+      public Nintendo(int pAño, string pFabricante, string pModelo, int pArquitectura) : base(pAño, pFabricante, pModelo, pArquitectura)
         {
-            this.Name = Name;
         }
     }
 }
