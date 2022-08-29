@@ -1,8 +1,8 @@
 ﻿using console_app;
-Consola x = new Xbox(2001, "Microsoft", "classic", 32);
-Consola x360 = new Xbox(2005, "Microsoft", "360", 64);
-Consola N = new Nintendo(1985, "Nintendo", "NES", 8);
-Consola SN = new Nintendo(1990, "Nintendo", "SNES", 16);
+Manufacturer x = new Xbox(2001, "Microsoft", "classic", 32);
+Manufacturer x360 = new Xbox(2005, "Microsoft", "360", 64);
+Manufacturer N = new Nintendo(1985, "Nintendo", "NES", 8);
+Manufacturer SN = new Nintendo(1990, "Nintendo", "SNES", 16);
 
 Console.WriteLine("Xbox");
 Console.WriteLine("***************************");

@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace console_app
 {
-    internal class Consola
+    internal class Manufacturer
     {
-        public int _Año;
-        public string _Fabricante;
-        public string _Modelo;
-        public int _Arquitectura;
+        private int _Año;
+        private string _Fabricante;
+        private string _Modelo;
+        private int _Arquitectura;
 
         public int Año
         {
@@ -33,7 +33,7 @@ namespace console_app
             get { return _Arquitectura;}
             set { _Arquitectura = value;}
         }
-        public Consola(int pAño, string pFabricante, string pModelo, int pArquitectura )
+        public Manufacturer(int pAño, string pFabricante, string pModelo, int pArquitectura )
         {
             Año = pAño;
             Fabricante = pFabricante;
