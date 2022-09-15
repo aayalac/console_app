@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace console_app
 {
-    internal class Manufacturer
+    internal class VideoConsole
     {
         private int _Año;
         private string _Fabricante;
@@ -33,7 +33,7 @@ namespace console_app
             get { return _Arquitectura;}
             set { _Arquitectura = value;}
         }
-        public Manufacturer(int pAño, string pFabricante, string pModelo, int pArquitectura )
+        public VideoConsole(int pAño, string pFabricante, string pModelo, int pArquitectura )
         {
             Año = pAño;
             Fabricante = pFabricante;

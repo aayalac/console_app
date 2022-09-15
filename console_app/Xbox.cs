@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace console_app
 {
-    internal class Xbox : Manufacturer
+    internal class Xbox : VideoConsole
     {
       public Xbox(int pAño, string pFabricante, string pModelo, int pArquitectura):base(pAño,pFabricante,pModelo,pArquitectura)
         {
